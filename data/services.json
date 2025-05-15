@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Bahçe Tasarımı Antalya",
+      "description": "Antalya’nın benzersiz iklimine uygun bahçe tasarımı ile villalarınızı, otellerinizi ve rezidanslarınızı estetik ve işlevsel hale getiriyoruz. Her tasarımda, doğanın güzelliklerinden ilham alarak, çevreyle uyumlu çözümler üretmeye özen gösteriyoruz.",
+      "image": "/images/services/bahce-tasarimi-antalya.webp"
+    },
+    {
+      "title": "Peyzaj Uygulama Hizmeti",
+      "description": "Tasarım aşamasından sonra peyzaj uygulama hizmeti ile projelerinizi hayata geçiriyoruz. Alanınızdaki her bir detayı, projelendirdiğimiz şekilde en yüksek kaliteyle uyguluyoruz. Peyzaj uygulamalarımızda, otomatik sulama sistemleri, aydınlatma çözümleri ve yer kaplama gibi unsurları da kullanıyoruz.",
+      "image": "/images/services/peyzaj-uygulama-hizmeti.webp"
+    },
+    {
+      "title": "Otomatik Sulama Sistemleri",
+      "description": "Bahçenizde suyun doğru şekilde kullanılması için otomatik sulama sistemleri kuruyoruz. Bu sistemler, su tasarrufu sağlarken, bitkilerinizin sağlıklı gelişmesini de destekler. Villa bahçelerinden otel peyzajlarına kadar her alanda bu sistemlerin uygulanmasını sağlıyoruz.",
+      "image": "/images/services/otomatik-sulama-sistemleri.webp"
+    },
+    {
+      "title": "Bahçe Bakım Hizmetleri",
+      "description": "Yazın kavurucu sıcakları ve kışın ılıman havası Antalya’da bahçe bakım hizmetleri, yeşil alanların düzenli olarak sağlıklı kalmasını garanti eder. Mevsimsel bakım, çimlerin gübrelenmesi, bitki budaması gibi hizmetlerle bahçenizin yıl boyu bakımını üstleniyoruz.",
+      "image": "/images/services/bahce-bakim-hizmetleri.webp"
+    },
+    {
+      "title": "Peyzaj Mimarisi ve Proje Çizimi",
+      "description": "Projeniz için kapsamlı peyzaj proje çizimi hizmeti sunuyoruz. Alanınızı detaylı bir şekilde analiz edip, her köşesine hayat verecek yaratıcı çizimler yapıyoruz. Bu süreç, her tip yapı için özgün ve fonksiyonel çözümler sunar.",
+      "image": "/images/services/peyzaj-uygulama-hizmeti.webp"
+    },
+    {
+      "title": "Sert Zemin Uygulamaları",
+      "description": "Bahçenizin estetik açıdan zenginleşmesi için çeşitli sert zemin uygulamaları sunuyoruz. Ahşap deck alanlarından taş döşeme sistemlerine kadar her tür zemin uygulaması, bahçenizi kullanışlı hale getirir.",
+      "image": "/images/services/sert-zemin-uygulamalari.webp"
+    },
+    {
+      "title": "Profesyonel Peyzaj Danışmanlığı",
+      "description": "Antalya peyzaj firması olarak, peyzaj projelerinin her aşamasında size danışmanlık hizmeti veriyoruz. Proje tasarımından bakım planlamasına kadar her konuda profesyonel önerilerde bulunuyoruz. Doğru bitki seçimi, toprağın verimliliği ve su yönetimi konusunda uzman tavsiyesi sağlıyoruz.",
+      "image": "/images/services/profesyonel-peyzaj-danismanligi.webp"
+    }
+  ]
+  
