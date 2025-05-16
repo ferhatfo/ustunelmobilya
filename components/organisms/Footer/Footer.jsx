@@ -63,7 +63,7 @@ const Footer = () => {
               <div className="flex items-center pb-[20px]">
                 <Link href="https://www.instagram.com" target="_blank" className="mr-[15px]">
                   <Image 
-                    src="/images/svg/instagram.svg" 
+                    src="/images/svg/Instagram.svg" 
                     alt="Instagram" 
                     width={24} 
                     height={24} 
@@ -83,7 +83,7 @@ const Footer = () => {
               <div className="flex items-center pb-[20px]">
                 <Link href="https://www.instagram.com/rosinante.nm/" target="_blank" className="mr-[15px]">
                   <Image 
-                    src="/images/svg/instagram.svg" 
+                    src="/images/svg/Instagram.svg" 
                     alt="Instagram" 
                     width={24} 
                     height={24} 
