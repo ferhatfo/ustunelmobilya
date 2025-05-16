@@ -28,7 +28,7 @@ export default function ContactPageDescription(){
                     <div className="flex items-center pt-[5px] pb-[15px]">
                         <Link href="https://www.instagram.com" target="_blank" className="mr-[15px]">
                         <Image 
-                            src="/images/svg/instagram.svg" 
+                            src="/images/svg/Instagram.svg" 
                             alt="Instagram" 
                             width={24} 
                             height={24} 
@@ -55,7 +55,7 @@ export default function ContactPageDescription(){
                     <div className="flex items-center pt-[5px] pb-[15px]">
                         <Link href="https://www.instagram.com/rosinante.nm/" target="_blank" className="mr-[15px]">
                         <Image 
-                            src="/images/svg/instagram.svg" 
+                            src="/images/svg/Instagram.svg" 
                             alt="Instagram" 
                             width={24} 
                             height={24} 
