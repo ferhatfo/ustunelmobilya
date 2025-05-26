@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaInstagram, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
 export default function ContactPageDescription(){
     return(
         <section className="py-[40px]">
@@ -15,7 +16,7 @@ export default function ContactPageDescription(){
 
                     <h6 className="text-[#336159] pb-1">Mail</h6>
                     <p className="pb-[15px] text-gray-700 leading-relaxed text-sm">
-                        azurpeyzaj@gmail.com
+                        info@azurpeyzaj.com.tr
                     </p>
 
                     <h6 className="text-[#336159] pb-1">Adres</h6>
@@ -25,22 +26,18 @@ export default function ContactPageDescription(){
                     </p>
 
                     <h6 className="text-[#336159] pb-1">Sosyal Medya</h6>
-                    <div className="flex items-center pt-[5px] pb-[15px]">
-                        <Link href="https://www.instagram.com" target="_blank" className="mr-[15px]">
-                        <Image 
-                            src="/images/svg/Instagram.svg" 
-                            alt="Instagram" 
-                            width={24} 
-                            height={24} 
-                        />
+                    <div className="flex items-center pt-[5px] pb-[15px] gap-5">
+                        <Link href="https://www.instagram.com/azurpeyzaj.com.tr/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram size={24} color="#336159" />
                         </Link>
-                        <Link href="https://api.whatsapp.com/send?phone=+905322504351&text=Merhaba bilgi almak istiyorum" target="_blank">
-                        <Image 
-                            src="/images/svg/Whatsup.svg" 
-                            alt="WhatsApp" 
-                            width={24} 
-                            height={24} 
-                        />
+                        <Link href="https://www.linkedin.com/company/azur-peyzaj/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={24} color="#336159" />
+                        </Link>
+                        <Link href="https://www.facebook.com/profile.php?id=61576887500784&locale=tr_TR" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook size={24} color="#336159" />
+                        </Link>
+                        <Link href="https://www.youtube.com/@AzurPeyzaj" target="_blank" rel="noopener noreferrer">
+                        <FaYoutube size={24} color="#336159" />
                         </Link>
                     </div>
                 </div>
@@ -48,20 +45,9 @@ export default function ContactPageDescription(){
                     <h6 className="text-[#336159] pb-1">Rosinante Atölyesi</h6>
                     <p className="pb-[15px] text-gray-700 leading-relaxed text-sm">
                     Aşağıoba Mahallesi 1 Sokak<br/>
-                    No 255/B Döşemealtı/Antalya
+                    No 255 Döşemealtı/Antalya
                     </p>
 
-                    <h6 className="text-[#336159] pb-1">Sosyal Medya</h6>
-                    <div className="flex items-center pt-[5px] pb-[15px]">
-                        <Link href="https://www.instagram.com/rosinante.nm/" target="_blank" className="mr-[15px]">
-                        <Image 
-                            src="/images/svg/Instagram.svg" 
-                            alt="Instagram" 
-                            width={24} 
-                            height={24} 
-                        />
-                        </Link>
-                    </div>
                 </div>
 
                 

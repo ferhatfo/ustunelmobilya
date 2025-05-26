@@ -11,9 +11,8 @@ export default function AboutSection() {
         <div className="text-white md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">Biz Kimiz?</h2>
           <p className="text-md leading-relaxed mb-8">
-          Rosinante Atölyesi olarak, Antalya’nın doğal güzelliklerine ve peyzaj
-          mimarisine değer katmayı hedefliyoruz. Uzun yıllardır hukukçu bir aileden gelen
-          bizler, sektöre yenilikçi bir bakış açısı ve profesyonel bir yaklaşım getirmeyi
+          Azur Peyzaj ailesi olarak, Antalya’nın doğal güzelliklerine ve peyzaj
+          mimarisine değer katmayı hedefliyoruz. Sektöre yenilikçi bir bakış açısı ve profesyonel bir yaklaşım getirmeyi
           amaçlıyoruz. Müşterilerimize, sadece estetik değil, işlevsel ve sürdürülebilir
           yaşam alanları sunuyoruz.
           </p>

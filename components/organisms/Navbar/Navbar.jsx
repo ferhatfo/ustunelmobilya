@@ -12,7 +12,7 @@ const menuItems = [
   { name: 'Rosinante Atölyesi', href: '/rosinante' },
   { name: 'İletişim', href: '/contact' },
   { name: '+90 242 311 07 07', href: 'tel:+902423110707' },
-  { iconSrc: '/images/svg/Instagram.svg', href: 'https://instagram.com', isIcon: true },
+  { iconSrc: '/images/svg/Instagram.svg', href: 'https://www.instagram.com/azurpeyzaj.com.tr/', isIcon: true },
 ];
 
 

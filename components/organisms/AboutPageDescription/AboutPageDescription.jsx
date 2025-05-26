@@ -11,10 +11,11 @@ export default function AboutPageDescription() {
               sunarken, her projede estetik ve işlevselliği birbirine entegre ediyoruz.
               Otomatik sulama sistemleri, bahçe bakım hizmetleri, çim ekimi ve rulo çim
               Antalya gibi yenilikçi çözümlerle projelerimizi sürdürülebilir kılarken,
-              çevreye duyarlı yaklaşımlarımızı en ince ayrıntısına kadar benimsiyoruz.
+              çevreye duyarlı yaklaşımlarımızı en ince ayrıntısına kadar benimsiyoruz. 
+              Tepeden tırnağa yenilikçi olmak için dünya trendlerini yakından takip ediyoruz.
               Her projede müşterilerimize sadece bir hizmet sunmakla kalmayıp, onlara
               yaşam alanlarında doğal zarafet ve yeni bir soluk kazandırıyoruz. Sert
-              zemin uygulamaları ve peyzaj proje çizimi gibi detaylarda profesyonellik ve
+              zemin uygulamaları ve peyzaj proje çiziminde profesyonellik ve
               kaliteli işçilikle fark yaratıyoruz. Peyzaj tasarımı Antalya’nın yeni
               trendlerini ve doğa dostu tasarım anlayışını birleştirerek, her müşterimizin
               ihtiyacına özel çözümler geliştiriyoruz.

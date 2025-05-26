@@ -8,8 +8,9 @@ const slides = [
   {
     id: 1,
     image: '/images/slide1.webp',
-    title: 'Azur Peyzaj & Mimarlık',
-    desc: 'Rosinante Atölyesi olarak, Antalya’nın doğal güzelliklerine ve peyzaj mimarisine değer katmayı hedefliyoruz. Uzun yıllardır hukukçu bir aileden gelen bizler, sektöre yenilikçi bir bakış açısı ve profesyonel bir yaklaşım getirmeyi amaçlıyoruz.',
+    title: 'Azur Peyzaj',
+    altTitle:'Peyzaj ve Mimarlık',
+    desc: 'Azur peyzaj ailesi olarak, Antalya’nın doğal güzelliklerine ve peyzaj mimarisine değer katmayı hedefliyoruz. Sektöre yenilikçi bir bakış açısı ve profesyonel bir yaklaşım getirmeyi amaçlıyoruz.',
     btnText: 'Biz Kimiz ?',
     btnUrl: '/about'
   },
@@ -97,7 +98,9 @@ export default function Slider() {
           className="absolute inset-0 flex flex-col items-start justify-center text-left z-10 pl-[15%] p-4 top-[-10%]"
           ref={contentRef}
         >
+          
           <h2 className="text-4xl md:text-5xl font-bold">{slides[current].title}</h2>
+          <h6 className="text-xl font-regular my-2">{slides[current].altTitle}</h6>
           <p className="mt-4 mb-6 text-base md:text-lg max-w-xl">{slides[current].desc}</p>
           <Link href={slides[current].btnUrl}>
             <Button

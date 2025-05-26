@@ -57,7 +57,7 @@ export default function RosinanteAtolyesi() {
               Rosinante Atölyesi olarak, doğa ile iç içe yaratıcı projeler geliştiriyor ve her
               yaş grubuna hitap eden etkinliklerle doğa sevgisini aşılıyoruz. Hedefimiz,
               sadece çevreyi korumak değil, aynı zamanda doğayla uyumlu bir yaşam tarzı
-              benimsemek ve bunu insanlarla paylaşmaktır. Peyzaj, sanatı, eğitimi ve insanı
+              benimsemek ve bunu paylaşmaktır. Peyzaj, sanatı, eğitimi ve insanı
               bir araya getiren projelerle her bir katılımcıyı doğa dostu bir bakış açısına
               yönlendirmeyi amaçlıyoruz.<br/>
               Rosinante Atölyesi, yaratıcı ve sanatsal etkinlikleri, doğa ile olan güçlü

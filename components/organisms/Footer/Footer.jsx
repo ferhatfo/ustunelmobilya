@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import services from '@/data/services.json';
 import { slugify } from '@/utils/slugify';
+import { FaInstagram, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
+
 const Footer = () => {
   return (
     <footer className="py-10 md:py-15 pb-0 md:pb-0 bg-gray-100 rounded-t-[30px]">
@@ -39,7 +41,7 @@ const Footer = () => {
               <h6 className="font-medium pb-[15px] text-[#336159]">Hizmetlerimiz</h6>
               <ul className="space-y-1">
                 {services.map((service, index) => (
-                  <li>
+                  <li key={index}>
                     <Link href={`/services/${slugify(service.title)}`} className='text-[14px] font-normal hover:text-[#336159] transition-colors'>
                       {service.title}
                     </Link>
@@ -60,41 +62,26 @@ const Footer = () => {
             <div>
               <h6 className="font-medium pb-[15px] text-[#336159]">İletişim</h6>
               <p className="text-[14px] pb-[10px]">Çıplaklı Mah. Akdeniz Bulvarı  <br/> No 363 Döşemealtı/Antalya</p>
-              <div className="flex items-center pb-[20px]">
-                <Link href="https://www.instagram.com" target="_blank" className="mr-[15px]">
-                  <Image 
-                    src="/images/svg/Instagram.svg" 
-                    alt="Instagram" 
-                    width={24} 
-                    height={24} 
-                  />
+              <div className="flex items-center pb-[20px] gap-3">
+                <Link href="https://www.instagram.com/azurpeyzaj.com.tr/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram size={24} color="#336159" />
                 </Link>
-                <Link href="https://api.whatsapp.com/send?phone=+905322504351 &text=Merhaba bilgi almak istiyorum" target="_blank">
-                  <Image 
-                    src="/images/svg/Whatsup.svg" 
-                    alt="WhatsApp" 
-                    width={24} 
-                    height={24} 
-                  />
+                <Link href="https://www.linkedin.com/company/azur-peyzaj/?viewAsMember=true " target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin size={24} color="#336159" />
+                </Link>
+                <Link href="https://www.facebook.com/profile.php?id=61576887500784&locale=tr_TR" target="_blank" rel="noopener noreferrer">
+                  <FaFacebook size={24} color="#336159" />
+                </Link>
+                <Link href="https://www.youtube.com/@AzurPeyzaj" target="_blank" rel="noopener noreferrer">
+                  <FaYoutube size={24} color="#336159" />
                 </Link>
               </div>
               <h6 className="font-medium pb-[5px] text-[#336159]">Rosinante Atölyesi</h6>
-              <p className="text-[14px] pb-[10px]">Aşağıoba Mahallesi 1 Sokak  <br/> No 255/B Döşemealtı/Antalya </p>
-              <div className="flex items-center pb-[20px]">
-                <Link href="https://www.instagram.com/rosinante.nm/" target="_blank" className="mr-[15px]">
-                  <Image 
-                    src="/images/svg/Instagram.svg" 
-                    alt="Instagram" 
-                    width={24} 
-                    height={24} 
-                  />
-                </Link>
-              </div>
+              <p className="text-[14px] pb-[10px]">Aşağıoba Mahallesi 1 Sokak  <br/> No 255 Döşemealtı/Antalya </p>
+           
               <p className="py-[5px] text-[14px]"><Link href="tel:+902423110707">+90 242 311 07 07 </Link></p>
               <p className="text-[14px]"><Link href="tel:+905322504351">+90 532 250 43 51 </Link></p>
-              <p className="text-[14px] pt-[5px]"><Link href="mailto:azurpeyzaj@gmail.com">azurpeyzaj@gmail.com</Link></p>
-              
-              
+              <p className="text-[14px] pt-[5px]"><Link href="mailto:info@azurpeyzaj.com.tr">info@azurpeyzaj.com.tr</Link></p>
             </div>
           </div>
         </div>

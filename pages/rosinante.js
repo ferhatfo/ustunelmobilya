@@ -12,7 +12,7 @@ export default function About() {
       </Head>
       <MultiPageHeader
         subtitle="Rosinante Atölyesi"
-        title="Rosinante Neden Bu isimle Anılıyor"
+        title="Rosinante Neden Bu İsimle Anılıyor"
         isImage={true}
         imgUrl="/images/rosinante.webp"
       />
