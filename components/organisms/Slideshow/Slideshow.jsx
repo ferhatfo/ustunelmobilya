@@ -101,7 +101,7 @@ export default function Slider() {
           className="absolute inset-0 flex flex-col items-center justify-center text-left z-10 p-4 top-[-25%]"
           ref={contentRef}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-center max-w-[50%]" style={{ lineHeight: '60px' }}>{slides[current].title}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-center md:max-w-[50%] max-w-[100%]" style={{ lineHeight: '60px' }}>{slides[current].title}</h2>
 
         </div>
 
