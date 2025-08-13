@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Main Content */}
         <div className="pt-[40px] md:pb-[40px] border-t border-[#A91E22]">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Home Links */}
             <div>
               <h6 className="font-medium pb-[15px] text-[#A91E22]">Üstünel Mobilya</h6>
