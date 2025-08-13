@@ -2,6 +2,7 @@ import services from "@/data/services.json";
 import Image from "next/image";
 import { slugify } from "@/utils/slugify";
 import Head from "next/head";
+import MultiPageHeader from "@/components/organisms/MultiPageHeader";
 
 export async function getStaticPaths() {
   const paths = services.map((service) => ({

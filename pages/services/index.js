@@ -1,6 +1,7 @@
 import services from '../../data/services.json';
 import Link from 'next/link';
 import { slugify } from '@/utils/slugify';
+import MultiPageHeader from '@/components/organisms/MultiPageHeader';
 import Head from 'next/head';
 import Image from "next/image";
 import Button from '@/components/atoms/Button';
