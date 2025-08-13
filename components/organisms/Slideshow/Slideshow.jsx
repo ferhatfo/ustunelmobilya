@@ -8,19 +8,22 @@ const slides = [
   {
     id: 1,
     image: '/images/slide1.webp',
-    title: 'Azur Peyzaj',
-    altTitle:'Peyzaj ve Mimarlık',
-    desc: 'Azur peyzaj ailesi olarak, Antalya’nın doğal güzelliklerine ve peyzaj mimarisine değer katmayı hedefliyoruz. Sektöre yenilikçi bir bakış açısı ve profesyonel bir yaklaşım getirmeyi amaçlıyoruz.',
-    btnText: 'Biz Kimiz ?',
-    btnUrl: '/about'
+    title: 'Yarım Asırlık Ustalıkla Yaşam Alanınızı Şekillendiriyoruz',
   },
   {
     id: 2,
     image: '/images/slide2.webp',
-    title: 'Rosinante Atolyesi',
-    desc: 'Rosinante, cesaretin, idealizmin ve doğayla uyumun simgesidir. Rosinante Atölyesi, bu ismi alarak, hayal gücü ve yaratıcılıkla doğayla iç içe, sanatla harmanlanmış bir yaşam alanı yaratmayı amaçlamaktadır.',
-    btnText: 'Keşfet',
-    btnUrl: '/rosinante'
+    title: 'Mobilyada Sadece İş Değil, Aile Geleneği',
+  },
+  {
+    id: 3,
+    image: '/images/slide3.webp',
+    title: 'Antalya’dan Dünyaya Uzanıyor, Hayallerinizi Gerçeğe Dönüştürüyoruz',
+  },
+  {
+    id: 4,
+    image: '/images/slide4.webp',
+    title: 'Usta Ellerin Tecrübesi & Modern Tasarım',
   },
 ];
 
@@ -95,25 +98,14 @@ export default function Slider() {
         </div>
 
         <div
-          className="absolute inset-0 flex flex-col items-start justify-center text-left z-10 pl-[15%] p-4 top-[-10%]"
+          className="absolute inset-0 flex flex-col items-center justify-center text-left z-10 p-4 top-[-25%]"
           ref={contentRef}
         >
-          
-          <h2 className="text-4xl md:text-5xl font-bold">{slides[current].title}</h2>
-          <h6 className="text-xl font-regular my-2">{slides[current].altTitle}</h6>
-          <p className="mt-4 mb-6 text-base md:text-lg max-w-xl">{slides[current].desc}</p>
-          <Link href={slides[current].btnUrl}>
-            <Button
-              text={slides[current].btnText}
-              backgroundColor="#ffffff"
-              textColor="#336159"
-              icon={<FaArrowRight size={14} />}
-            />
-          </Link>
+          <h2 className="text-4xl md:text-5xl font-bold text-center max-w-[50%]" style={{ lineHeight: '60px' }}>{slides[current].title}</h2>
 
         </div>
 
-        <div className="absolute bottom-10 left-[15%] flex gap-3 z-20 w-[200px]">
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex gap-3 z-20 w-[200px]">
           {slides.map((_, index) => (
             <div
               key={index}

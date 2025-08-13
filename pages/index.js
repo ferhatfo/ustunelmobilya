@@ -5,7 +5,6 @@ import Slideshow from "@/components/organisms/Slideshow";
 import { Montserrat, Playfair_Display } from "next/font/google";
 import AboutSection from "@/components/organisms/AboutSection";
 import ServicesSection from "@/components/organisms/ServicesSection";
-import BlogSection from "@/components/organisms/BlogSection";
 import Footer from "@/components/organisms/Footer";
 import Head from 'next/head';
 const montserrat = Montserrat({
@@ -24,16 +23,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Azur Peyzaj</title>
-        <meta name="description" content="Azur Peyzaj" />
+        <title>Üstünel Mobilya</title>
+        <meta name="description" content="Üstünel Mobilya" />
       </Head>
       <main>
         <Slideshow/>
         <AboutSection/>
         <ServicesSection/>
-        <BlogSection
-          isIndex={true}
-        />
       </main>
     </>
   );

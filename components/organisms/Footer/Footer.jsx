@@ -22,27 +22,21 @@ const Footer = () => {
         </div>
 
         {/* Main Content */}
-        <div className="pt-[40px] md:pb-[40px] border-t border-[#336159]">
+        <div className="pt-[40px] md:pb-[40px] border-t border-[#A91E22]">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {/* Home Links */}
             <div>
-              <h6 className="font-medium pb-[15px] text-[#336159]">Azur Peyzaj</h6>
-              <ul className="space-y-1">
-                <li><FooterLink href="/about" text="Hakkımızda" /></li>
-                <li><FooterLink href="/services" text="Hizmetlerimiz" /></li>
-                <li><FooterLink href="/blogs" text="Blog" /></li>
-                <li><FooterLink href="/Rosinante" text="Rosinante Atölyesi" /></li>
-                <li><FooterLink href="/contact" text="İletişim" /></li>
-              </ul>
+              <h6 className="font-medium pb-[15px] text-[#A91E22]">Üstünel Mobilya</h6>
+              <p>Antalya Yeni Sanayi’de kök salmış, marangozluktan modern mobilyacılığa uzanan bir aile hikâyesiyiz. İki kardeş olarak babamızdan devraldığımız bu mesleği, yarım asırdır ustalıkla ve tutkuyla sürdürüyoruz.</p>
             </div>
 
             {/* Services Links */}
             <div>
-              <h6 className="font-medium pb-[15px] text-[#336159]">Hizmetlerimiz</h6>
+              <h6 className="font-medium pb-[15px] text-[#A91E22]">Hizmetlerimiz</h6>
               <ul className="space-y-1">
                 {services.map((service, index) => (
                   <li key={index}>
-                    <Link href={`/services/${slugify(service.title)}`} className='text-[14px] font-normal hover:text-[#336159] transition-colors'>
+                    <Link href={`/services/${slugify(service.title)}`} className='text-[14px] font-normal hover:text-[#A91E22] transition-colors'>
                       {service.title}
                     </Link>
                   </li>
@@ -51,7 +45,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h6 className="font-medium pb-[15px] text-[#336159]">Politikalar</h6>
+              <h6 className="font-medium pb-[15px] text-[#A91E22]">Politikalar</h6>
               <ul className="space-y-1">
                 <li><FooterLink href="" text="Kişisel Verilerin İşlenmesine İlişkin Kurumsal Genel Aydınlatma Metni" /></li>
                 <li><FooterLink href="" text="Çerez Politikası" /></li>
@@ -60,34 +54,23 @@ const Footer = () => {
             </div>
 
             <div>
-              <h6 className="font-medium pb-[15px] text-[#336159]">İletişim</h6>
-              <p className="text-[14px] pb-[10px]">Çıplaklı Mah. Akdeniz Bulvarı  <br/> No 363 Döşemealtı/Antalya</p>
+              <h6 className="font-medium pb-[15px] text-[#A91E22]">İletişim</h6>
+              <p className="text-[14px] pb-[10px]">Akdeniz sanayi sitesi, 5031 sokak  <br/> No:16-18 Kepez/Antalya</p>
               <div className="flex items-center pb-[20px] gap-3">
-                <Link href="https://www.instagram.com/azurpeyzaj.com.tr/" target="_blank" rel="noopener noreferrer">
-                  <FaInstagram size={24} color="#336159" />
-                </Link>
-                <Link href="https://www.linkedin.com/company/azur-peyzaj/?viewAsMember=true " target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin size={24} color="#336159" />
-                </Link>
-                <Link href="https://www.facebook.com/profile.php?id=61576887500784&locale=tr_TR" target="_blank" rel="noopener noreferrer">
-                  <FaFacebook size={24} color="#336159" />
-                </Link>
-                <Link href="https://www.youtube.com/@AzurPeyzaj" target="_blank" rel="noopener noreferrer">
-                  <FaYoutube size={24} color="#336159" />
+                <Link href="https://www.instagram.com/ustunel.mobilya/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram size={24} color="#A91E22" />
                 </Link>
               </div>
-              <h6 className="font-medium pb-[5px] text-[#336159]">Rosinante Atölyesi</h6>
-              <p className="text-[14px] pb-[10px]">Aşağıoba Mahallesi 1 Sokak  <br/> No 255 Döşemealtı/Antalya </p>
            
-              <p className="py-[5px] text-[14px]"><Link href="tel:+902423110707">+90 242 311 07 07 </Link></p>
-              <p className="text-[14px]"><Link href="tel:+905322504351">+90 532 250 43 51 </Link></p>
-              <p className="text-[14px] pt-[5px]"><Link href="mailto:info@azurpeyzaj.com.tr">info@azurpeyzaj.com.tr</Link></p>
+              <p className="py-[5px] text-[14px]"><Link href="tel:+905336247335">Mesut Kalınsazlıoğlu :<br/> +90 533 624 73 35 </Link></p>
+              <p className="text-[14px]"><Link href="tel:+905382979030">Hüseyin Kalınsazlıoğlu :<br/> +90 538 297 90 30 </Link></p>
+              <p className="text-[14px] pt-[5px]"><Link href="mailto:ustunel_mesut@hotmail.com">ustunel_mesut@hotmail.com</Link></p>
             </div>
           </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="py-[40px] mt-[40px] md:mt-[0] border-t border-[#336159]">
+        <div className="py-[40px] mt-[40px] md:mt-[0] border-t border-[#A91E22]">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-[13px]">2025 © | All Right Rezerved</p>
             <p className="text-[13px]">Created by Nuans Agency</p>
@@ -102,7 +85,7 @@ const Footer = () => {
 const FooterLink = ({ href, text }) => (
   <Link 
     href={href} 
-    className="text-[14px] font-normal hover:text-[#336159] transition-colors"
+    className="text-[14px] font-normal hover:text-[#A91E22] transition-colors"
   >
     {text}
   </Link>

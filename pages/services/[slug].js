@@ -28,7 +28,7 @@ export default function ServiceDetailPage({ service }) {
   return (
     <>
       <Head>
-        <title>{service.title} - Azur Peyzaj</title>
+        <title>{service.title} - Üstünel Mobilya</title>
         <meta name="description" content={service.description} />
       </Head>
 

@@ -1,38 +1,23 @@
 [
     {
-      "title": "Bahçe Tasarımı Antalya",
-      "description": "Antalya’nın benzersiz iklimine uygun bahçe tasarımı ile villalarınızı, otellerinizi ve rezidanslarınızı estetik ve işlevsel hale getiriyoruz. Her tasarımda, doğanın güzelliklerinden ilham alarak, çevreyle uyumlu çözümler üretmeye özen gösteriyoruz.",
-      "image": "/images/services/bahce-tasarimi-antalya.webp"
+      "title": "Konut mobilya projeleri,",
+      "description": "Evler, kişiliğinizi yansıtan en özel alanlarınızdır. Biz, konut mobilya projelerinde hem estetiği hem de işlevselliği ön planda tutarak yaşam alanlarınızı baştan tasarlıyoruz. Her detayda konfor, dayanıklılık ve zarafeti bir arada sunuyoruz.",
+      "image": "/images/konut-mobilya.webp"
     },
     {
-      "title": "Peyzaj Uygulama Hizmeti",
-      "description": "Tasarım aşamasından sonra peyzaj uygulama hizmeti ile projelerinizi hayata geçiriyoruz. Alanınızdaki her bir detayı, projelendirdiğimiz şekilde en yüksek kaliteyle uyguluyoruz. Peyzaj uygulamalarımızda, otomatik sulama sistemleri, aydınlatma çözümleri ve yer kaplama gibi unsurları da kullanıyoruz.",
-      "image": "/images/services/peyzaj-uygulama-hizmeti.webp"
+      "title": "Villa Mobilya Projeleri",
+      "description": "Villalar, geniş ve ferah alanlarıyla özgün tasarım fırsatları sunar. Biz, villalar için hazırladığımız mobilya projelerinde mekanın ruhunu korurken modern ve lüks dokunuşlar ekliyoruz. Her köşeyi size özel çözümlerle tamamlayarak yaşam kalitenizi artırıyoruz.",
+      "image": "/images/slide1.webp"
     },
     {
-      "title": "Otomatik Sulama Sistemleri",
-      "description": "Bahçenizde suyun doğru şekilde kullanılması için otomatik sulama sistemleri kuruyoruz. Bu sistemler, su tasarrufu sağlarken, bitkilerinizin sağlıklı gelişmesini de destekler. Villa bahçelerinden otel peyzajlarına kadar her alanda bu sistemlerin uygulanmasını sağlıyoruz.",
-      "image": "/images/services/otomatik-sulama-sistemleri.webp"
+      "title": "Otel Mobilya Projeleri",
+      "description": "Mağaza mobilyaları, müşterinin ilk izlenimini belirler. Biz, marka kimliğinizi yansıtan, işlevsel ve estetik mağaza mobilyaları tasarlıyoruz. Ürünlerinizi en iyi şekilde sergileyen çözümlerle satış deneyiminizi güçlendiriyoruz.",
+      "image": "/images/hotel-mobilya.webp"
     },
     {
-      "title": "Bahçe Bakım Hizmetleri",
+      "title": "Mağaza Mobilya Projeleri",
       "description": "Yazın kavurucu sıcakları ve kışın ılıman havası Antalya’da bahçe bakım hizmetleri, yeşil alanların düzenli olarak sağlıklı kalmasını garanti eder. Mevsimsel bakım, çimlerin gübrelenmesi, bitki budaması gibi hizmetlerle bahçenizin yıl boyu bakımını üstleniyoruz.",
-      "image": "/images/services/bahce-bakim-hizmetleri.webp"
-    },
-    {
-      "title": "Peyzaj Mimarisi ve Proje Çizimi",
-      "description": "Projeniz için kapsamlı peyzaj proje çizimi hizmeti sunuyoruz. Alanınızı detaylı bir şekilde analiz edip, her köşesine hayat verecek yaratıcı çizimler yapıyoruz. Bu süreç, her tip yapı için özgün ve fonksiyonel çözümler sunar.",
-      "image": "/images/services/peyzaj-uygulama-hizmeti.webp"
-    },
-    {
-      "title": "Sert Zemin Uygulamaları",
-      "description": "Bahçenizin estetik açıdan zenginleşmesi için çeşitli sert zemin uygulamaları sunuyoruz. Ahşap deck alanlarından taş döşeme sistemlerine kadar her tür zemin uygulaması, bahçenizi kullanışlı hale getirir.",
-      "image": "/images/services/sert-zemin-uygulamalari.webp"
-    },
-    {
-      "title": "Profesyonel Peyzaj Danışmanlığı",
-      "description": "Antalya peyzaj firması olarak, peyzaj projelerinin her aşamasında size danışmanlık hizmeti veriyoruz. Proje tasarımından bakım planlamasına kadar her konuda profesyonel önerilerde bulunuyoruz. Doğru bitki seçimi, toprağın verimliliği ve su yönetimi konusunda uzman tavsiyesi sağlıyoruz.",
-      "image": "/images/services/profesyonel-peyzaj-danismanligi.webp"
+      "image": "/images/magaza-mobilya.webp"
     }
   ]
   

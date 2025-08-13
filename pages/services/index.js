@@ -17,13 +17,13 @@ export default function ServicesPage({ services }) {
   return (
     <>
         <Head>
-            <title>Hizmetlerimiz - Azur Peyzaj</title>
-            <meta name="description" content={`Azur Peyzaj olarak sunduğumuz ${services.length} farklı peyzaj hizmetini inceleyin.`} />
+            <title>Hizmetlerimiz - Üstünel Mobilya</title>
+            <meta name="description" content={`Üstünel Mobilya olarak sunduğumuz ${services.length} farklı peyzaj hizmetini inceleyin.`} />
         </Head>
 
         <MultiPageHeader
             subtitle="Hizmetlerimiz"
-            title="Azur Peyzaj"
+            title="Üstünel Mobilya"
             isImage={false}
         />
        
@@ -51,7 +51,7 @@ export default function ServicesPage({ services }) {
                                 >
                                     <Button
                                         text="Detayları Gör"
-                                        backgroundColor="#336159"
+                                        backgroundColor="#A91E22"
                                         textColor="#fff"
                                         icon={<FaArrowRight size={14} />}
                                     />

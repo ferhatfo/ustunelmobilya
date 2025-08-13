@@ -7,11 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import Button from '@/components/atoms/Button';
-import { FaArrowRight } from 'react-icons/fa';
 import services from '@/data/services.json';
-import { slugify } from '@/utils/slugify';
-import Link from 'next/link';
 const ProgressBar = ({ isActive, delay, swiperRef }) => {
   const [progress, setProgress] = useState(0);
   const animationFrameRef = useRef();
@@ -54,7 +50,7 @@ const ProgressBar = ({ isActive, delay, swiperRef }) => {
         className="h-full bg-white transition-none"
         style={{ 
           width: `${progress}%`,
-          backgroundColor: '#336159' 
+          backgroundColor: '#A91E22' 
         }}
       />
     </div>
@@ -68,13 +64,7 @@ export default function ServicesSlider() {
 
   return (
     <section className="py-5 md:py-15 md:pb-20 pb-10 bg-gray-100" style={{ borderRadius: '30px' }}>
-      <h2 className="text-3xl font-bold text-center mb-4">Hizmetlerimiz</h2>
-      <p className="text-sm max-w px-2 md:max-w-1/2 text-center m-auto mb-8">Antalya Peyzaj Firması olarak, sadece villa bahçeleri değil, aynı zamanda otel
-      peyzajları, rezidans alanları ve eşsiz yapılar için de profesyonel çözümler
-      sunuyoruz. Peyzaj tasarımından, uygulamaya kadar her aşamada, doğaya
-      saygılı, estetik ve fonksiyonel alanlar yaratıyoruz. Her proje, benzersiz ihtiyaç ve
-      beklentilere göre özelleştirilir ve sürdürülebilir peyzaj uygulamaları ile
-      şek!llend!r!l!r. </p>
+      <h2 className="text-3xl font-bold text-center mb-10">Neler Yapıyoruz?</h2>
       <Swiper
         ref={swiperRef}
         modules={[Navigation, Autoplay]}
@@ -133,14 +123,6 @@ export default function ServicesSlider() {
                 <div className="max-w-2xl">
                   <h2 className="text-2xl md:text-3xl font-bold mb-2">{service.title}</h2>
                   <p className="text-sm mb-5 md:mb-8 md:max-w-1/2 line-clamp-3">{service.description}</p>
-                  <Link href={`/services/${slugify(service.title)}`}>
-                    <Button
-                      text="İncele"
-                      backgroundColor="#ffffff"
-                      textColor="#336159"
-                      icon={<FaArrowRight size={14} />}
-                      />
-                  </Link>
                 </div>
               </div>
 

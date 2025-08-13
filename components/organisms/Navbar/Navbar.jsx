@@ -5,14 +5,8 @@ import Image from 'next/image';
 import { gsap } from 'gsap';
 
 const menuItems = [
-  { name: 'Anasayfa', href: '/' },
-  { name: 'Hakkımızda', href: '/about' },
-  { name: 'Hizmetler', href: '/services' },
-  { name: 'Blog', href: '/blogs' },
-  { name: 'Rosinante Atölyesi', href: '/rosinante' },
-  { name: 'İletişim', href: '/contact' },
-  { name: '+90 242 311 07 07', href: 'tel:+902423110707' },
-  { iconSrc: '/images/svg/Instagram.svg', href: 'https://www.instagram.com/azurpeyzaj.com.tr/', isIcon: true },
+  { name: '+90 533 624 73 35', href: 'tel:+905336247335' },
+  { iconSrc: '/images/svg/Instagram.svg', href: 'https://www.instagram.com/ustunel.mobilya/', isIcon: true },
 ];
 
 
@@ -53,11 +47,11 @@ export default function Navbar() {
     <header className="relative fixed top-0 left-0 w-full z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/">
-          <Image src="/images/svg/logo.svg" alt="Logo" width={130} height={40} />
+          <Image src="/images/svg/logo.svg" alt="Logo" width={160} height={40} />
         </Link>
 
         <button
-          className="lg:hidden text-3xl z-[60] text-[#336159]"
+          className="lg:hidden text-3xl z-[60] text-[#A91E22]"
           onClick={() => setIsOpen((prev) => !prev)}
         >
           {isOpen ? '✕' : '☰'}
@@ -65,7 +59,7 @@ export default function Navbar() {
 
         <nav className="hidden lg:flex text-sm gap-4 font-medium">
           {menuItems.map((item) => (
-            <Link key={item.name} href={item.href} className="flex items-center gap-2 text-[#336159]">
+            <Link key={item.name} href={item.href} className="flex items-center gap-2 text-[#A91E22]">
               {item.isIcon ? (
                 <Image src={item.iconSrc} alt="Icon" width={24} height={24} />
               ) : (
@@ -90,7 +84,7 @@ export default function Navbar() {
                   href={item.href}
                   target={item.isIcon ? '_blank' : undefined}
                   rel={item.isIcon ? 'noopener noreferrer' : undefined}
-                  className="text-xl font-medium flex items-center justify-center gap-2 text-[#336159]"
+                  className="text-xl font-medium flex items-center justify-center gap-2 text-[#A91E22]"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.isIcon ? (
