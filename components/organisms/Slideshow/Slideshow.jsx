@@ -8,22 +8,22 @@ const slides = [
   {
     id: 1,
     image: '/images/slide1.webp',
-    title: 'Yarım Asırlık Ustalıkla Yaşam Alanınızı Şekillendiriyoruz',
+    title: 'Yarım asırlık tecrübeyle, mobilyada estetik ve konforu buluşturuyoruz.',
   },
   {
     id: 2,
     image: '/images/slide2.webp',
-    title: 'Mobilyada Sadece İş Değil, Aile Geleneği',
+    title: 'Eşsiz tasarımlar, kusursuz işçilik.',
   },
   {
     id: 3,
     image: '/images/slide3.webp',
-    title: 'Antalya’dan Dünyaya Uzanıyor, Hayallerinizi Gerçeğe Dönüştürüyoruz',
+    title: 'Evinize değer, hayatınıza estetik katıyoruz.',
   },
   {
     id: 4,
     image: '/images/slide4.webp',
-    title: 'Usta Ellerin Tecrübesi & Modern Tasarım',
+    title: 'Her detayıyla size özel, her dokunuşunda ustalık.',
   },
 ];
 
